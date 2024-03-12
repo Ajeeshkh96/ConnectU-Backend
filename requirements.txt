@@ -3,7 +3,6 @@ async-timeout==4.0.3
 attrs==23.2.0
 autobahn==23.1.2
 Automat==22.10.0
-# backports.zoneinfo==0.2.1
 cffi==1.16.0
 channels==4.0.0
 channels-redis==4.2.0
@@ -20,7 +19,7 @@ idna==3.6
 incremental==22.10.0
 msgpack==1.0.7
 pillow==10.2.0
-psycopg2==2.9.9
+psycopg2-binary==2.9.9
 pyasn1==0.5.1
 pyasn1-modules==0.3.0
 pycparser==2.21
@@ -32,8 +31,8 @@ redis==5.0.1
 service-identity==23.1.0
 six==1.16.0
 sqlparse==0.4.4
-twisted==23.10.0
+Twisted==23.10.0
 txaio==23.1.1
-typing-extensions==4.9.0
+typing_extensions==4.9.0
 tzdata==2023.4
 zope.interface==6.1

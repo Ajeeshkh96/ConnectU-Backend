@@ -96,7 +96,7 @@ CORS_ALLOW_CREDENTIALS = True
 
 CORS_ALLOWED_ORIGINS = [
     "http://127.0.0.1:3000",
-    "http://localhost:3000", "https://main.d3cmqd3kxcoacp.amplifyapp.com/", 'https://www.ajeesh.online/'
+    "http://localhost:3000", 'https://www.ajeesh.online/'
 ]
 
 CORS_ALLOW_METHODS = (
@@ -108,7 +108,7 @@ CORS_ALLOW_METHODS = (
     "PUT",
 )
 
-CSRF_TRUSTED_ORIGINS = ['http://54.253.129.14/', 'https://main.d3cmqd3kxcoacp.amplifyapp.com/', 'https://www.ajeesh.online/']
+CSRF_TRUSTED_ORIGINS = ['https://www.ajeesh.online/']
 
 
 
